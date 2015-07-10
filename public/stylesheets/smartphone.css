@@ -4,3 +4,4 @@ body { background: #333; }
 h2 span, section h3 { display: none; }
 body {font-size: xx-large; }
 footer, input { font-size: large; }
+.searcher input { width: 100%; }
