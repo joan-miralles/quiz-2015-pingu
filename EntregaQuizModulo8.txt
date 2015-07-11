@@ -1,0 +1,2 @@
+URL Heroku: https://quiz-2015-pingu.herokuapp.com
+URL Repositorio GitHub: https://github.com/joan-miralles/quiz-2015-pingu/
