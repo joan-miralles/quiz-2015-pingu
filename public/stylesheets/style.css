@@ -8,9 +8,12 @@ section > div { padding: 20px; }
 header, nav, section { background: #eee; text-align: center; }
 footer { background: #eee; text-align: center; }
 nav span { margin: 0 10px 0 0; }
+
+#ErrorMsgs { color: #f61; font-size: smaller; }
 .searcher { width: 100%; }
 .searcher input[type="text"] { width: 30%; }
 .separator { margin-bottom: 10px; clear: both; }
 .questions { width:100%; position: relative; }
 .questions ul { width: 100%; }
 .questions li { width: 25%; list-style-type: none; float: left;}
+
