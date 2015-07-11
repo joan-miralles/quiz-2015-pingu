@@ -10,10 +10,12 @@ footer { background: #eee; text-align: center; }
 nav span { margin: 0 10px 0 0; }
 
 #ErrorMsgs { color: #f61; font-size: smaller; }
-.searcher { width: 100%; }
+.searcher { width: 100%; text-align: left; }
 .searcher input[type="text"] { width: 30%; }
 .separator { margin-bottom: 10px; clear: both; }
 .questions { width:100%; position: relative; }
 .questions ul { width: 100%; }
 .questions li { width: 25%; list-style-type: none; float: left;}
+.actions { text-align: left; }
+.bodyContent { text-align: left; }
 
