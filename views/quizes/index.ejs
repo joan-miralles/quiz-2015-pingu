@@ -5,10 +5,14 @@
     </form>
 </div>
 <div class="separator"></div>
-<div>
-    <table>
+<div class="questions">
+    <ul>
         <% var i; for (i = 0; i < quizes.length; i++) { %>
-            <tr><td><a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a></td></tr>
+            <li><a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a></li>
         <% } %>
-    </table>
+    </ul>
+</div>
+<div class="separator"></div>
+<div class="actions">
+    <a href="/quizes/new"><button type="button">Crear pregunta</button></a>
 </div>
